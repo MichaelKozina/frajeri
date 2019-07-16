@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: password
+  host: localhost
+
+development:
+  <<: *default
+  database: frajeri_development
+
+test:
+  <<: *default
+  database: frajeri_test
+
+production:
+  <<: *default
+  database: frajeri_production
+  # username: frajeri
+  # password: <%= ENV['FRAJERI_DATABASE_PASSWORD'] %>
