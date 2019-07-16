@@ -71,3 +71,9 @@ gem 'simple_form'
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
+
+gem "font-awesome-rails"
+gem 'devise'
+gem "figaro"
+gem 'carrierwave', '~> 1.0'
+gem "fog-aws"
