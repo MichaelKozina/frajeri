@@ -14,15 +14,17 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <%= link_to 'Frajeri', root_path, class: 'navbar-brand' %>
-
+      <div class="logo">
+        <%= link_to 'Frajeri', root_path, class: 'navbar-brand' %>
+      </div>  
+      
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">bios</a>
-            <a class="nav-link" href="#">videos</a>
-            <a class="nav-link" href="#">gallery</a>
-            <a class="nav-link" href="#">calendar</a>            
+            <%= link_to 'bios', pages_bios_path, class: 'nav-link' %>
+            <%= link_to 'videos', pages_videos_path, class: 'nav-link' %>
+            <%= link_to 'gallery', pages_gallery_path, class: 'nav-link' %>
+            <%= link_to 'calendar', pages_calendar_path, class: 'nav-link' %>                        
           </li>
         </ul>
       </div>
