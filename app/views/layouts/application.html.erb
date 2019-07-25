@@ -15,15 +15,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="logo">
-        <%= link_to 'Frajeri', root_path, class: 'navbar-brand' %>
+        <%= link_to image_tag("frajeri_logo2.png", height: 75), root_path, class: 'navbar-brand' %>
       </div>  
       
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
           <li class="nav-item">
             <%= link_to 'bios', pages_bios_path, class: 'nav-link' %>
+          </li>  
+          <li class="nav-item">
             <%= link_to 'videos', pages_videos_path, class: 'nav-link' %>
+          </li>  
+          <li class="nav-item">  
             <%= link_to 'gallery', pages_gallery_path, class: 'nav-link' %>
+          </li>  
+          <li class="nav-item">  
             <%= link_to 'calendar', pages_calendar_path, class: 'nav-link' %>                        
           </li>
         </ul>
