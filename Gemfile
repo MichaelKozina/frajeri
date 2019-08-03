@@ -77,3 +77,8 @@ gem 'devise'
 gem "figaro"
 gem 'carrierwave', '~> 1.0'
 gem "fog-aws"
+gem 'google-api-client', '~> 0.11'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
