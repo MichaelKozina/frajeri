@@ -5,6 +5,5 @@ Rails.application.routes.draw do
   get 'pages/bios'
   get 'pages/videos'
   get 'pages/gallery'
-  get 'pages/events'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

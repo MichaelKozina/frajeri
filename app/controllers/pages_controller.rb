@@ -10,7 +10,4 @@ class PagesController < ApplicationController
 
   def gallery
   end
-
-  def events
-  end
 end
