@@ -1,5 +1,7 @@
 @import "bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|Ultra&display=swap');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -14,7 +16,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'abhaya_libreregular';
+  font-family: 'Arbutus Slab', serif;
   margin:0;
   padding:0;
   color: #C2AC7A;
@@ -58,7 +60,7 @@ body {
 
 p {
   color: #dedfbb;
-  font-family: 'abhaya_libreregular';
+  font-family: 'Libre Caslon Text', serif;
 }
 
 .blue {
