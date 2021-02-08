@@ -75,7 +75,7 @@ gem 'bootstrap', '4.0.0.alpha6'
 gem "font-awesome-rails"
 gem 'devise'
 gem "figaro"
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem "fog-aws"
 gem 'google-api-client', '~> 0.11'
 
